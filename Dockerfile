@@ -1,4 +1,4 @@
-FROM golang:1.4.3
+FROM golang:latest
 
 MAINTAINER Olaoluwa Osuntokun <laolu32@gmail.com>
 
