@@ -1,6 +1,6 @@
 FROM golang:latest
 
-MAINTAINER Olaoluwa Osuntokun <laolu32@gmail.com>
+MAINTAINER Michael Dance <michael.dance@gmail.com>
 
 # Grab and install the latest version of btcd and it's dependencies.
 RUN go get github.com/btcsuite/btcd/...
