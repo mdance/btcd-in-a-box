@@ -3,7 +3,7 @@ FROM golang:latest
 MAINTAINER Michael Dance <michael.dance@gmail.com>
 
 # Grab and install the latest version of btcd and it's dependencies.
-RUN go get github.com/btcsuite/btcd/...
+RUN go get github.com/roasbeef/btcd/...
 
 # wallet, p2p, and rpc
 EXPOSE 8332 8333 8334
